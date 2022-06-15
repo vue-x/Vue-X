@@ -1,0 +1,38 @@
+{
+  "name": "@vue-x/vue-x-components",
+  "description": "The standard Vue Components",
+  "version": "0.0.1",
+  "author": "Behzad Abbasi <overafaik.com>",
+  "bugs": {
+    "url": "https://github.com/vue-x/vue-x/issues"
+  },
+  "homepage": "https://github.com/vue-x/vue-x/tree/master/packages/vue-x-components#readme",
+  "keywords": [
+    "vue-x",
+    "components"
+  ],
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "index.d.ts",
+    ".npmrc",
+    "vue-x-components.js",
+    "vue-x-components.css",
+    "vue-x-components.min.js",
+    "vue-x-components.min.css",
+    "src/"
+  ],
+  "main": "./index.js",
+  "typings": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vue-x/vue-x.git",
+    "directory": "packages/vue-x-components"
+  },
+  "dependencies": {
+    "date-fns": "^2.24.0",
+    "@popperjs/core": "^2.10.1"
+  }
+}
